@@ -17,6 +17,12 @@ Before running this project, make sure you have the following requirements insta
 
 ## Usage
 
+To run the system, execute the following command in your terminal:
+
+```bash
+python Code.py
+```
+
 Users of this system include customers, system admins, restaurant managers, and deliverers. Each user type has specific functionalities and actions they can perform.
 
 ### Customers
@@ -64,30 +70,22 @@ Deliverers handle the delivery process. Here's how they use the system:
 
 ## Features
 
-- **User Authentication:**
-  - Secure user registration and login for customers, system admins, restaurant managers, and deliverers.
+- **User Authentication**
+- **Dynamic GUI**
+- **Order Management**
+- **Admin Controls**
+- **Product Management**
+- **Delivery Tracking**
+- **Multi-role Access**
 
-- **Dynamic GUI:**
-  - The system provides an intuitive graphical user interface (GUI) for easy navigation and interaction.
+## Database
+The system uses a SQLite database named ```muhtesemotesi.db``` to store user and company information, product details, and funding transactions.
 
-- **Order Management:**
-  - Real-time tracking of orders, including order status updates and order history.
+## Contributions
+Contributions to this project are welcome. Feel free to fork the repository, make improvements, and create pull requests.
 
-- **Admin Controls:**
-  - System admins have the ability to manage restaurants, regions, and overall system configuration.
+## Author
+Umarbek Güvercin
 
-- **Product Management:**
-  - Restaurant managers can easily add, delete, and update product information.
-
-- **Delivery Tracking:**
-  - Deliverers can efficiently manage and update the status of assigned orders.
-
-- **Multi-role Access:**
-  - Each user type has role-specific functionalities, ensuring a tailored experience for all users.
-
----
-
-To run the system, execute the following command in your terminal:
-
-```bash
-python Code.py
+## Acknowledgments
+Special thanks to my project group (Oğuz Erdem, Hasan Murtaza Kolomuç, Ahmet Buğra Dilci, Atakan Başaran, Sıla Titiz) for their contributions to the project.
