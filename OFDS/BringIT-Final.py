@@ -4,7 +4,7 @@ import sqlite3
 import PySimpleGUI as sg
 from datetime import datetime
 
-con = sqlite3.connect('muhtesemotesi.db')
+con = sqlite3.connect('Bilkent2Starbucks.db')
 cur = con.cursor()
 login_user_id = -1
 login_user_name = -1
