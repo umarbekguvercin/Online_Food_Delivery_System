@@ -79,7 +79,7 @@ Deliverers handle the delivery process. Here's how they use the system:
 - **Multi-role Access**
 
 ## Database
-The system uses a SQLite database named ```muhtesemotesi.db``` to store user and company information, product details, and funding transactions.
+The system uses a SQLite database named ```Bilkent2Starbucks.db``` to store user and company information, product details, and funding transactions.
 
 ## Contributions
 Contributions to this project are welcome. Feel free to fork the repository, make improvements, and create pull requests.
